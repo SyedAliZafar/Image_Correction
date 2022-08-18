@@ -14,7 +14,10 @@ Pincushion distortion is a less harmful type of barrel distortion that occurs wh
 ## Remove distortion 
 
 
-*Step1: it gets the values that could be used as a distortion coeefficient for correcting the image
+*Step1: Correction_image_data "Test.py" estimates the first distortion coefficient for an input image. This generates based on the K-coefficient tries to map the co-orinates with respect to the 3D world co-ordinates automatically
+theory behind this work can be found in this paper: 
+https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=1234047
+
 
 $python test.py 
 
