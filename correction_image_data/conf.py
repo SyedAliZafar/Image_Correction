@@ -1,0 +1,9 @@
+#########
+# FOR YOUR OWN CALIBRATION
+
+CAL_START_COEFF = 0.00000001
+CAL_COEFF_INC_FACTOR = 0.0000007
+CAL_EPOCH_NUMB = 10
+
+IMAGE_PATH = './images/distortion_1.png'
+OUTPUT_PATH = './results/result_3.png'
